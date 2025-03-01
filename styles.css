@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background:linear-gradient(to right, gray,darkgray);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: rgb(137, 227, 250);
+    border-radius: 10px;
+    width: 95%;
+    height: 40vh;
+    padding: 20px;
+    box-shadow: -5px 5px 9px black;
+}
+input {
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+button{
+ height: 50px;
+ width: 200px;
+ background-color: rgb(134, 134, 194);
+}
+button:hover{
+    background-color: rgb(186, 186, 196);
+}
+.output {
+    font-weight: bold;
+    margin-top: 20px;
+}
