@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 50px;
-    background:linear-gradient(to right, gray,darkgray);
+    background-color:#e3f2fd;
 }
 .box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     border: 2px solid black;
-    background-color: rgb(137, 227, 250);
+    background-color: #1565c0;
     border-radius: 10px;
     width: 95%;
     height: 40vh;
@@ -24,10 +24,14 @@ input {
 button{
  height: 50px;
  width: 200px;
- background-color: rgb(134, 134, 194);
+ background-color: orangered;
 }
 button:hover{
-    background-color: rgb(186, 186, 196);
+    background-color: rgb(247, 113, 4);
+}
+#binaryOutput{
+    color: red;
+    font-size: 20px;
 }
 .output {
     font-weight: bold;

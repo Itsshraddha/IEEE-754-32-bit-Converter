@@ -14,7 +14,7 @@ function floatToIEEE754(floatNum) {
 function convertToIEEE754() {
     let num = parseFloat(document.getElementById("floatInput").value);
     if (isNaN(num)) {
-        document.getElementById("binaryOutput").innerText = "Please enter a valid number!";
+     document.getElementById("binaryOutput").innerText = "Please enter a valid number!";
         return;
     }
 
